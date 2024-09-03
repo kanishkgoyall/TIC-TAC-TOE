@@ -13,7 +13,7 @@ Index.html: Contains the HTML structure for the Tic Tac Toe board.
 <br>
 Styles.css: Defines the styling for the game board and cells.
 <br>
-Script.js: Implements the game logic, including turn switching, win detection, and game reset.
+app.js: Implements the game logic, including turn switching, win detection, and game reset.
 <br>
 #Usage
 <br>
@@ -28,7 +28,7 @@ Open index.html: Open the index.html file in a web browser to start playing the 
 <ul>The game will alert you when a player wins or if there’s a tie.</ul></li>
 <br>
 
-# Restart the Game: Reload the page or use the restart button (if implemented) to start a new game.
+ Restart the Game: Reload the page or use the restart button (if implemented) to start a new game.
 
 
 
@@ -50,23 +50,24 @@ Open index.html: Open the index.html file in a web browser to start playing the 
 
 <ul>Tie Detection: Checks if the board is full and no player has won.</ul>
 
-
+</li>
 <br>
 
 
 #Creating a Tic Tac Toe game with JavaScript, HTML, and CSS involves several steps. Here’s a high-level overview of the process:
 
 
-
+<br><li>
+<ol>
 HTML Setup:
-
+<br>
 
 
 Create a basic HTML structure.
 
-Include a grid for the Tic Tac Toe board using <div> elements or <button> elements.
+Include a grid for the Tic Tac Toe board using <div> elements or <button> elements.</ol> <br>
 
-CSS Styling:
+<ol>CSS Styling:<br>
 
 
 
@@ -75,27 +76,27 @@ Style the grid to make it look like a Tic Tac Toe board.
 Use CSS to set the size, borders, and spacing of the grid cells.
 
 Add styling for the X and O symbols.
+</ol><br>
+<ol>JavaScript Functionality:
 
-JavaScript Functionality:
+<br>
 
+Initialize the Board: Create a 3x3 grid and handle the logic for marking cells with X or O.<br>
 
+Event Listeners: Add click event listeners to each cell to update the board when a player makes a move.<br>
 
-Initialize the Board: Create a 3x3 grid and handle the logic for marking cells with X or O.
+Check for Win/Tie: Implement functions to check if a player has won or if the game is a tie.<br>
 
-Event Listeners: Add click event listeners to each cell to update the board when a player makes a move.
+Switch Turns: Alternate turns between player X and player O.<br>
 
-Check for Win/Tie: Implement functions to check if a player has won or if the game is a tie.
-
-Switch Turns: Alternate turns between player X and player O.
-
-Restart Game: Provide a way to restart the game once it’s over.
+Restart Game: Provide a way to restart the game once it’s over.</ol><br>
 
 Testing and Debugging:
-
+<br>
 
 
 Test the game for various scenarios to ensure it works as expected.
-
+<br>
 Debug any issues with the game logic or user interface.
 
 
